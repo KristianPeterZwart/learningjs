@@ -12,20 +12,27 @@
 
 // console.log(newItems);
 
-const user = {
-    name: "Kris",
-    photos: [1, 2, 3, 4, 5, 6],
-    age: 44,
-    analytics: {
-        subscribers: 2500,
-        videos: 250
-    }
-};
-
+// const user = {
+    // name: "Kris",
+    // photos: [1, 2, 3, 4, 5, 6],
+    // age: 44,
+    // analytics: {
+        // subscribers: 2500,
+        // videos: 250
+    // }
+// };
+// 
 // const photos = user.analytics.subscribers
 
 // console.log(photos);
 
-const {subscribers} = user.analytics; 
+// const {subscribers} = user.analytics; 
+// 
+// console.log(subscribers);
 
-console.log(subscribers);
+
+// IFFE - Immediately invoked function
+
+(function hello() {
+    console.log("How are you");
+})();
