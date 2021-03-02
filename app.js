@@ -1,9 +1,9 @@
+// Deconstruct
+
 const items = ["banana", "chocolate", "apple", "cheese"];
 
-const apple = items[2];
-const apple = items[2];
-const apple = items[2];
-const cheese = itesm[3];
-const cheese = itesm[3];
-const cheese = itesm[3];
+const [banana, chocolate, apple, cheese] = items;
 
+// saved everything to a variable
+
+console.log(banana);
