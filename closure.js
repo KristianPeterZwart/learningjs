@@ -1,7 +1,11 @@
 function user(){
     const name = "Kris";
-    const displayName = function(greeting){
+    const displayName = function(greeting) {
         console.log(greeting + name);
     };
-    return displayName'
+    return displayName;
 }
+
+const say = user();
+
+console.log(say);
